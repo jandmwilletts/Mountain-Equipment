@@ -50,8 +50,25 @@ Avoid: Frontier (already an ME soft shell), Sentry, Vanguard, Keep, Bastion (too
 
 ---
 
+## Source documents
+
+**Master (prices, all WLD variants, Odoo source):**  
+`MOD/CI Shared Drive/Suppliers/Mountain Equipment/2026 Prices/Final WLD pricing - backup before 10 Sept 26 stock.xlsx`
+
+This is the master going forward. It holds every WLD kit variant. CI buy and CI sell on this workbook are the prices to use. It is the source document when building WLD ranges in Odoo.
+
+**Stock snapshot (subset only):**  
+`MOD/CI Shared Drive/Suppliers/Mountain Equipment/Stock levels /10 SEpt 26 - WLD stock list.xlsx`
+
+This is the 10 Sept 26 stock list. It will not have every line that is on the master. Use it for quantities on hand, not to overwrite master prices.
+
+**Price comparison (CI buy / CI sell):** not yet run. Both workbooks were given as Mac iCloud paths and are not on this machine. Attach the two `.xlsx` files to this chat to compare line by line.
+
+---
+
 ## Do not do
 
 - Do not print `Redoubt` on garments in place of Citadel / Fitzroy / Exo.
 - Do not mix Redoubt and Ranger on one PO unless the same supplier is filling both.
 - Do not treat WLD as the range name on a customer quote; it is the programme, and most buyers will not know what it means.
+- Do not take CI buy or CI sell from the stock list when the master has a price. The master wins.
