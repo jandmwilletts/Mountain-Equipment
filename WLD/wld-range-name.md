@@ -57,12 +57,10 @@ Avoid: Frontier (already an ME soft shell), Sentry, Vanguard, Keep, Bastion (too
 
 This is the master going forward. It holds every WLD kit variant. CI buy and CI sell on this workbook are the prices to use. It is the source document when building WLD ranges in Odoo.
 
-**Stock snapshot (subset only):**  
-`MOD/CI Shared Drive/Suppliers/Mountain Equipment/Stock levels /10 SEpt 26 - WLD stock list.xlsx`
+**Latest stock snapshot:**  
+`WLD/WLD Stock 22 Oct 26.xlsx` (copied from the 22 Oct 26 stock list).
 
-This is the 10 Sept 26 stock list. It will not have every line that is on the master. Use it for quantities on hand, not to overwrite master prices.
-
-**Price comparison (CI buy / CI sell):** not yet run. Both workbooks were given as Mac iCloud paths and are not on this machine. Attach the two `.xlsx` files to this chat to compare line by line.
+Use it for quantities on hand. Same `ProductDescription` can sit on two ME codes with different Trade / CI buy / CI sell — see `wld-stock-22-oct-26-name-price-duplicates.md`. Do not overwrite a master price from a second code without checking which one is current.
 
 ---
 
